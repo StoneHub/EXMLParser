@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>artistName</key>
+	<string>V.S. Naipaul</string>
+	<key>book-info</key>
+	<dict>
+		<key>cover-image-hash</key>
+		<string>DE51D03F5F049E180C8DCCDEFDB25DE7</string>
+		<key>cover-image-path</key>
+		<string>OEBPS/images/Naip_9780307776587_epub_cvi_r1.jpg</string>
+		<key>mime-type</key>
+		<string>application/epub+zip</string>
+		<key>package-file-hash</key>
+		<string>BEEBE99D1B7A255227DD42A65CA311F3</string>
+		<key>publisher-unique-id</key>
+		<string>978-0-307-77658-7</string>
+		<key>unique-id</key>
+		<integer>-5385239988494921306</integer>
+		<key>update-level</key>
+		<integer>2</integer>
+	</dict>
+	<key>itemName</key>
+	<string>A Bend in the River</string>
+	<key>playlistName</key>
+	<string>A Bend in the River</string>
+	<key>releaseDate</key>
+	<string>2010-10-20</string>
+	<key>sort-artist</key>
+	<string>Naipaul, V.S.</string>
+	<key>sort-artist-status</key>
+	<integer>3</integer>
+</dict>
+</plist>

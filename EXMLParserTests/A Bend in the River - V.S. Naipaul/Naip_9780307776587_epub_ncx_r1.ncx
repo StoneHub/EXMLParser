@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx version="2005-1" xml:lang="en-US" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+
+
+<head>
+<meta name="dtb:uid" content="978-0-307-77658-7"/>
+<meta name="dtb:depth" content="2"/>
+	<meta name="dtb:totalPageCount" content="0"/>
+	<meta name="dtb:maxPageNumber" content="0"/>
+</head>
+
+
+<docTitle><text>A Bend in the River</text></docTitle>
+<docAuthor><text>V.S. Naipaul</text></docAuthor>
+
+
+<navMap>
+
+
+<navPoint class="cover" id="cvi" playOrder="1">
+<navLabel><text>Cover</text></navLabel>
+<content src="OEBPS/Naip_9780307776587_epub_cvi_r1.htm"/>
+</navPoint>
+
+
+<navPoint class="other" id="adc" playOrder="2">
+<navLabel><text>Other Books by This Author</text></navLabel>
+<content src="OEBPS/Naip_9780307776587_epub_adc_r1.htm"/>
+</navPoint>
+
+
+<navPoint class="titlepage" id="tp" playOrder="3">
+<navLabel><text>Title Page</text></navLabel>
+<content src="OEBPS/Naip_9780307776587_epub_tp_r1.htm"/>
+</navPoint>
+
+
+<navPoint class="copyright" id="cop" playOrder="4">
+<navLabel><text>Copyright</text></navLabel>
+<content src="OEBPS/Naip_9780307776587_epub_cop_r1.htm"/>
+</navPoint>
+
+
+<navPoint class="other" id="toc" playOrder="5">
+<navLabel><text>Contents</text></navLabel>
+<content src="OEBPS/Naip_9780307776587_epub_toc_r1.htm"/>
+</navPoint>
+
+
+<navPoint class="part" id="p01" playOrder="6">
+<navLabel><text>Part One - The Second Rebellion</text></navLabel>
+<content src="OEBPS/Naip_9780307776587_epub_p01_r1.htm"/>
+
+
+<navPoint class="chapter" id="c01" playOrder="7">
+<navLabel><text>chapter - 1</text></navLabel>
+<content src="OEBPS/Naip_9780307776587_epub_c01_r1.htm"/>
+</navPoint>
+
+
+<navPoint class="chapter" id="c02" playOrder="8">
+<navLabel><text>chapter - 2</text></navLabel>
+<content src="OEBPS/Naip_9780307776587_epub_c02_r1.htm"/>
+</navPoint>
+
+
+<navPoint class="chapter" id="c03" playOrder="9">
+<navLabel><text>chapter - 3</text></navLabel>
+<content src="OEBPS/Naip_9780307776587_epub_c03_r1.htm"/>
+</navPoint>
+
+
+<navPoint class="chapter" id="c04" playOrder="10">
+<navLabel><text>chapter - 4</text></navLabel>
+<content src="OEBPS/Naip_9780307776587_epub_c04_r1.htm"/>
+</navPoint>
+
+
+<navPoint class="chapter" id="c05" playOrder="11">
+<navLabel><text>chapter - 5</text></navLabel>
+<content src="OEBPS/Naip_9780307776587_epub_c05_r1.htm"/>
+</navPoint>
+</navPoint>
+
+
+<navPoint class="part" id="p02" playOrder="12">
+<navLabel><text>Part Two - The New Domain</text></navLabel>
+<content src="OEBPS/Naip_9780307776587_epub_p02_r1.htm"/>
+
+
+<navPoint class="chapter" id="c06" playOrder="13">
+<navLabel><text>chapter - 6</text></navLabel>
+<content src="OEBPS/Naip_9780307776587_epub_c06_r1.htm"/>
+</navPoint>
+
+
+<navPoint class="chapter" id="c07" playOrder="14">
+<navLabel><text>chapter - 7</text></navLabel>
+<content src="OEBPS/Naip_9780307776587_epub_c07_r1.htm"/>
+</navPoint>
+
+
+<navPoint class="chapter" id="c08" playOrder="15">
+<navLabel><text>chapter - 8</text></navLabel>
+<content src="OEBPS/Naip_9780307776587_epub_c08_r1.htm"/>
+</navPoint>
+
+
+<navPoint class="chapter" id="c09" playOrder="16">
+<navLabel><text>chapter - 9</text></navLabel>
+<content src="OEBPS/Naip_9780307776587_epub_c09_r1.htm"/>
+</navPoint>
+
+
+<navPoint class="chapter" id="c10" playOrder="17">
+<navLabel><text>chapter - 10</text></navLabel>
+<content src="OEBPS/Naip_9780307776587_epub_c10_r1.htm"/>
+</navPoint>
+
+
+<navPoint class="chapter" id="c11" playOrder="18">
+<navLabel><text>chapter - 11</text></navLabel>
+<content src="OEBPS/Naip_9780307776587_epub_c11_r1.htm"/>
+</navPoint>
+</navPoint>
+
+
+<navPoint class="part" id="p03" playOrder="19">
+<navLabel><text>Part Three - The Big Man</text></navLabel>
+<content src="OEBPS/Naip_9780307776587_epub_p03_r1.htm"/>
+
+
+<navPoint class="chapter" id="c12" playOrder="20">
+<navLabel><text>chapter - 12</text></navLabel>
+<content src="OEBPS/Naip_9780307776587_epub_c12_r1.htm"/>
+</navPoint>
+
+
+<navPoint class="chapter" id="c13" playOrder="21">
+<navLabel><text>chapter - 13</text></navLabel>
+<content src="OEBPS/Naip_9780307776587_epub_c13_r1.htm"/>
+</navPoint>
+
+
+<navPoint class="chapter" id="c14" playOrder="22">
+<navLabel><text>chapter - 14</text></navLabel>
+<content src="OEBPS/Naip_9780307776587_epub_c14_r1.htm"/>
+</navPoint>
+
+
+<navPoint class="chapter" id="c15" playOrder="23">
+<navLabel><text>chapter - 15</text></navLabel>
+<content src="OEBPS/Naip_9780307776587_epub_c15_r1.htm"/>
+</navPoint>
+</navPoint>
+
+
+<navPoint class="part" id="p04" playOrder="24">
+<navLabel><text>Part Four - Battle</text></navLabel>
+<content src="OEBPS/Naip_9780307776587_epub_p04_r1.htm"/>
+
+
+<navPoint class="chapter" id="c16" playOrder="25">
+<navLabel><text>chapter - 16</text></navLabel>
+<content src="OEBPS/Naip_9780307776587_epub_c16_r1.htm"/>
+</navPoint>
+
+
+<navPoint class="chapter" id="c17" playOrder="26">
+<navLabel><text>chapter - 17</text></navLabel>
+<content src="OEBPS/Naip_9780307776587_epub_c17_r1.htm"/>
+</navPoint>
+</navPoint>
+
+
+<navPoint class="other" id="ata" playOrder="27">
+<navLabel><text>About the Author</text></navLabel>
+<content src="OEBPS/Naip_9780307776587_epub_ata_r1.htm"/>
+</navPoint>
+
+
+</navMap>
+</ncx>
