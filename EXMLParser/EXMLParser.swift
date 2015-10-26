@@ -48,39 +48,39 @@ public extension EXMLParser {
         return eparser
     }
     
-    /// Parse xml file with data
-    func parseXMLFileWithData(dataXML: NSData) {
-        parser = NSXMLParser(data: dataXML)
-        parser?.delegate = self
-        parser?.parse()
-        
-        switch progress {
-        case .Container:
-            exmlDelegate?.didParseContainerXML(opfPath!)
-        case .OPF:
-            exmlDelegate?.didParseOPFXML(epubContent!)
-        default: break
+    /// Parse xml file with URL
+    func parseXMLFileWithURL(urlXML: NSURL) -> Bool {
+        if let data = NSData(contentsOfURL: urlXML) {
+            return parseXMLFileWithData(data)
         }
+        return false
     }
     
-    /// Parse xml file with URL
-    func parseXMLFileWithURL(urlXML: NSURL) {
-        parser = NSXMLParser(contentsOfURL: urlXML)
-        parser?.delegate = self
-        parser?.parse()
-        
-        switch progress {
-        case .Container:
-            exmlDelegate?.didParseContainerXML(opfPath!)
-        case .OPF:
-            exmlDelegate?.didParseOPFXML(epubContent!)
-        default: break
+    /// Parse xml file with data
+    func parseXMLFileWithData(dataXML: NSData) -> Bool {
+        parser = NSXMLParser(data: dataXML)
+        if let p = parser {
+            p.delegate = self
+            p.parse()
+            
+            switch progress {
+            case .Container:
+                exmlDelegate?.didParseContainerXML(opfPath!)
+            case .OPF:
+                exmlDelegate?.didParseOPFXML(epubContent!)
+            default: break
+            }
+            
+            return true
         }
+        
+        return false
     }
+    
 }
 
 // MARK: NSXMLParser Delegate Methods
-private extension EXMLParser {
+public extension EXMLParser {
     func parser(parser: NSXMLParser, parseErrorOccurred parseError: NSError) {
         print("Error Occured: \(parseError.description)")
     }

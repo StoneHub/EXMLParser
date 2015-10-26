@@ -16,6 +16,7 @@ class EXMLParserTests: XCTestCase, EXMLParserDelegate {
     }()
     
     var opfPath: String = ""
+    var href: String = ""
     var epubContent: EpubContent = EpubContent()
     
     override func setUp() {
@@ -34,6 +35,7 @@ class EXMLParserTests: XCTestCase, EXMLParserDelegate {
         if let url = b.URLForResource("container", withExtension: "xml") {
             eparser.parseXMLFileWithURL(url)
         }
+        XCTAssertEqual(opfPath, "Naip_9780307776587_epub_opf_r1.opf", "Parse container xml failed")
     }
     
     func testParseOPFXML() {
@@ -41,17 +43,18 @@ class EXMLParserTests: XCTestCase, EXMLParserDelegate {
         if let url = b.URLForResource("Naip_9780307776587_epub_opf_r1", withExtension: "opf") {
             eparser.parseXMLFileWithURL(url)
         }
+        XCTAssertEqual(href, "OEBPS/Naip_9780307776587_epub_cvi_r1.htm", "Parse OPF xml failed")
     }
     
     func didParseContainerXML(opfPath: String) {
-        XCTAssertEqual(opfPath, "Naip_9780307776587_epub_opf_r1.opf", "Parse container xml failed")
+        self.opfPath = opfPath
     }
     
     func didParseOPFXML(epubContent: EpubContent) {
         let chapterId = epubContent.spine[0]
         let chapterHref = epubContent.manifest[chapterId]
-
-        XCTAssertEqual(chapterHref, "OEBPS/Naip_9780307776587_epub_cvi_r1.htm", "Parse OPF xml failed")
+        self.href = chapterHref!
+        
     }
     
 }
